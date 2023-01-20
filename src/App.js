@@ -12,7 +12,7 @@ function App() {
           Hello World
         </p>
       </header>
-      <AddToHomeScreen />
+      <AddToHomeScreen skipFirstVisit={false}/>
     </div>
     
   );
